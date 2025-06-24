@@ -117,9 +117,6 @@ echo 1. Activate the virtual environment: venv\Scripts\activate
 echo 2. Run the Windows app: streamlit run app_windows.py
 echo 3. Open your browser to: http://localhost:8501
 echo.
-echo This version uses CPU-only PyTorch and ctransformers
-echo to avoid Windows long path issues.
-echo.
 echo To deactivate the virtual environment: deactivate
 echo.
 pause 
