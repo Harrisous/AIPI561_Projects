@@ -1,0 +1,28 @@
+# Simplified Windows requirements (CPU-only, avoids long path issues)
+streamlit>=1.28.0
+
+# Use CPU-only PyTorch to avoid long path issues
+torch>=2.1.0
+torchaudio>=2.1.0
+
+# llama-cpp-python for GGUF models
+llama-cpp-python>=0.2.24
+# Alternative LLM backend (no compilation)
+#ctransformers>=0.2.27
+
+# Core dependencies
+openai-whisper>=20231117
+numpy>=1.24.0
+pandas>=2.0.0
+pillow>=10.0.0
+moviepy>=1.0.3
+pydub>=0.25.1
+librosa>=0.10.0
+soundfile>=0.12.1
+transformers>=4.35.0
+accelerate>=0.24.0
+sentencepiece>=0.1.99
+protobuf>=4.24.0
+huggingface-hub>=0.17.0
+requests>=2.31.0
+tqdm>=4.66.0 
